@@ -20,3 +20,6 @@ class Dalnk extends React.Component {
     );
   }
 }
+
+const domContainer = document.querySelector('#dalnk_container');
+ReactDOM.render(e(LikeButton), domContainer);
